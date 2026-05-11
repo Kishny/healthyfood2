@@ -1,0 +1,129 @@
+/* ===== MEDIA QUERIES RESPONSIVE (Smartphones, Tablettes, Ordinateurs) ===== */
+
+/* Smartphones (max-width: 600px) */
+@media only screen and (max-width: 600px) {
+  header nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .desserts-container,
+  .recettes-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dessert,
+  .recette {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .dessert .btn,
+  .recette .btn {
+    margin-top: auto;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-section {
+    margin-bottom: 1rem;
+  }
+
+  .panier-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .panier-item img {
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+
+  .panier-details {
+    text-align: center;
+  }
+
+  .panier-actions {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .btn-return {
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
+
+/* Tablettes (601px à 1024px) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .desserts-container,
+  .recettes-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .dessert,
+  .recette {
+    width: 45%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .dessert .btn,
+  .recette .btn {
+    margin-top: auto;
+  }
+
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left;
+  }
+
+  .footer-section {
+    flex: 1 1 40%;
+    margin: 1rem;
+  }
+
+  .panier-item {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .panier-item img {
+    width: 150px;
+    margin-right: 1rem;
+  }
+
+  .panier-actions {
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .btn-return {
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
