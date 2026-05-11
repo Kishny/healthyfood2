@@ -6,7 +6,7 @@ export default function Recette1() {
       <div className="container">
         <h2>Pâtes aux blancs de poulet et crème légère</h2>
         <img
-          src="/img/img-recettes/pâtes crème.webp"
+          src="/img/img-recettes/pates-creme.webp"
           alt="Pâtes aux blancs de poulet et crème légère"
         />
         <p>

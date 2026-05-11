@@ -6,7 +6,7 @@ export default function Recette2() {
       <div className="container">
         <h2>Riz sauté aux petits légumes et poisson</h2>
         <img
-          src="/img/img-recettes/riz sauté.webp"
+          src="/img/img-recettes/riz-saute.webp"
           alt="Riz sauté aux petits légumes et poisson "
         />
         <p>

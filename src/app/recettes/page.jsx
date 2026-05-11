@@ -31,7 +31,7 @@ export default function Recettes() {
           <div className="recette-list">
             <div className="recette">
               <img
-                src="/img/img-recettes/pâtes crème.webp"
+                src="/img/img-recettes/pates-creme.webp"
                 alt="Pâtes aux blancs de poulet et crème légère"
               />
               <h3>Pâtes aux blancs de poulet et crème légère</h3>
@@ -47,7 +47,7 @@ export default function Recettes() {
 
             <div className="recette">
               <img
-                src="/img/img-recettes/riz sauté.webp"
+                src="/img/img-recettes/riz-saute.webp"
                 alt="Riz sauté aux petits légumes et poisson"
               />
               <h3>Riz sauté aux petits légumes et poisson</h3>

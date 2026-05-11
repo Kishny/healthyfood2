@@ -44,7 +44,7 @@ export default function Home() {
           <h2>Promotions du moment</h2>
           <div className="promo-list">
             <div className="promo-item">
-              <img alt="Promo 1" src="/img/img2/salade césar.webp" />
+              <img alt="Promo 1" src="/img/img2/salade-cesar.webp" />
               <h3>Salade César Light</h3>
               <p>Profitez de -20% sur cette salade fraîche et légère.</p>
               <span className="price">9,60€</span>
@@ -54,7 +54,7 @@ export default function Home() {
                   addToCart({
                     name: "Salade César Light",
                     price: 9.6,
-                    image: "/img/img2/salade césar.webp",
+                    image: "/img/img2/salade-cesar.webp",
                   })
                 }
               >
@@ -63,7 +63,7 @@ export default function Home() {
             </div>
 
             <div className="promo-item">
-              <img alt="Promo 2" src="/img/img2/Bowl végan.webp" />
+              <img alt="Promo 2" src="/img/img2/bowl-vegan.webp" />
               <h3>Bowl Vegan</h3>
               <p>Offre spéciale : -15% sur ce bowl riche en légumes.</p>
               <span className="price">10,90€</span>
@@ -73,7 +73,7 @@ export default function Home() {
                   addToCart({
                     name: "Bowl Vegan",
                     price: 10.9,
-                    image: "/img/img2/Bowl végan.webp",
+                    image: "/img/img2/bowl-vegan.webp",
                   })
                 }
               >
@@ -92,62 +92,62 @@ export default function Home() {
               {
                 name: "Salade César Light",
                 price: 12.95,
-                image: "/img/img2/salade césar.webp",
+                image: "/img/img2/salade-cesar.webp",
               },
               {
                 name: "Bowl Vegan",
                 price: 13.3,
-                image: "/img/img2/Bowl végan.webp",
+                image: "/img/img2/bowl-vegan.webp",
               },
               {
                 name: "Poulet Grillé et Quinoa",
                 price: 14.5,
-                image: "/img/img2/poulet et quinoa.webp",
+                image: "/img/img2/poulet-et-quinoa.webp",
               },
               {
                 name: "Nouilles végétariennes",
                 price: 11.2,
-                image: "/img/img2/nouille végétarienne.webp",
+                image: "/img/img2/nouille-vegetarienne.webp",
               },
               {
                 name: "Quiche gourmande au poulet",
                 price: 12.8,
-                image: "/img/img2/quiche au poulet.webp",
+                image: "/img/img2/quiche-au-poulet.webp",
               },
               {
                 name: "Terrine de Lentilles Nutritive",
                 price: 11.65,
-                image: "/img/img2/térine de lentilles.webp",
+                image: "/img/img2/terine-de-lentilles.webp",
               },
               {
                 name: "Escalope de Dinde aux Champignons",
                 price: 13.9,
-                image: "/img/img2/ecalope de d'inde.webp",
+                image: "/img/img2/escalope-de-dinde.webp",
               },
               {
                 name: "Gratin de Riz et Courgette",
                 price: 11.95,
-                image: "/img/img2/gratin riz courgette.webp",
+                image: "/img/img2/gratin-riz-courgette.webp",
               },
               {
                 name: "Salade Fraîcheur au Saumon et Avocat",
                 price: 12.35,
-                image: "/img/img2/salade saumon et avocats.webp",
+                image: "/img/img2/salade-saumon-et-avocats.webp",
               },
               {
                 name: "Papillote de Poisson",
                 price: 11.95,
-                image: "/img/img2/papillote de poisson.webp",
+                image: "/img/img2/papillote-de-poisson.webp",
               },
               {
                 name: "Potage de Légumes",
                 price: 10.85,
-                image: "/img/img2/potage légumes.webp",
+                image: "/img/img2/potage-legumes.webp",
               },
               {
                 name: "Pâtes aux Aubergines",
                 price: 11.5,
-                image: "/img/img2/pâtes aubergines.webp",
+                image: "/img/img2/pates-aubergines.webp",
               },
               {
                 name: "Cabillaud aux Épices Fraîches",
@@ -157,7 +157,7 @@ export default function Home() {
               {
                 name: "Riz Sauté aux Légumes et aux Crevettes",
                 price: 12.95,
-                image: "/img/img2/riz sauté.webp",
+                image: "/img/img2/riz-saute.webp",
               },
               {
                 name: "Croque-monsieur",
